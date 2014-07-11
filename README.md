@@ -8,7 +8,7 @@ install ec2-tools and push some utility
 1. [Module Description - What the module does and why it is useful](#module-description)
 2. [Setup - The basics of getting started with [Modulename]](#setup)
  * [Setup requirements](#setup-requirements)
-3. [Defines](#defines)
+3. [Subclasses](#subclasses)
 
 ##Module Description
 This module install ec2-api-tools and configure authentication through keypair. It has also defines used to add functionality
@@ -32,7 +32,7 @@ Module use two global variables to retrieve cert and private keys from a private
  * $::awstools\_privkey\_path
 
 
-## Defines
+## Subclasses
 
 ### awstoos::ip
 push a script that cache all ips used in AWS account

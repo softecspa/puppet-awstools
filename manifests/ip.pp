@@ -1,3 +1,6 @@
+# == Class: awstools::ip
+# This class require awstools and push aws-cache-ip-list script
+#
 class awstools::ip {
 
   require awstools

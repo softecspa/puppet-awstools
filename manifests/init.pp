@@ -1,5 +1,12 @@
 # == Class: awstools
-# This module contains script and utilities to work with AWS
+# This module install ec2-api-tools and configure authentication
+#
+# === Parameters
+# [*cert_path*]
+#   puppet path, used as source for file resource, where cert file is located. Default: global variable $::awstools_cert_path
+#
+# [*privkey_path*]
+#   puppet path, used as source for file resource, where priv key file is located. Default: global variable $::awstools_privkey_path
 #
 class awstools (
   $cert_path      = $::awstools_cert_path,
